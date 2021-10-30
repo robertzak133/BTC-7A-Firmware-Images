@@ -12,7 +12,7 @@ These images include:
 
 ## FW install Instructions
 
-Before installing, make sure you have batteries that will easily power the cameara for the several minutes it takes for firmware upgrade. 
+Before installing, make sure you have batteries that will easily power the camera for the several minutes it takes for firmware upgrade. Losing power during firmware upgrade is bad, requiring that it be reprogrammed by the manufacturer.  
 
 On BTC-7A
 - Press "Mode" 
