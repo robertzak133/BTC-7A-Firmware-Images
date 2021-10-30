@@ -20,4 +20,4 @@ On BTC-7A
 - Select "FW UPGRADE"
 - Select "YES"
 
-Display should show "UPGRADING" for about 2-minutes; DO NOT TURN OFF DURING THIS TIME! (this will "brick" the camera).  Camera will then "Reboot" with new firmware
+Display should show "UPGRADING" for about 2-minutes; DO NOT TURN OFF OR REMOVE BATTERIES DURING THIS TIME! (this will "brick" the camera).  Camera will then "Reboot" with new firmware
