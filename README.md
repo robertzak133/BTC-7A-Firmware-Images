@@ -11,10 +11,13 @@ These images include:
 - Note -- the file must be named "brnbtc70.BRN".  Sometimes downloading from your browser will add extra characters to distinguish it from previous downloads -- e.g. "brnbtc70(1).BRN".  If this happens, rename file to "brnbtc70.BRN" on the SD card. 
 
 ## FW install Instructions
+
+Before installing, make sure you have batteries that will easily power the cameara for the several minutes it takes for firmware upgrade. 
+
 On BTC-7A
 - Press "Mode" 
 - Select "CAMERA SETUP"
 - Select "FW UPGRADE"
 - Select "YES"
 
-Display should show "UPGRADING" for about 1-minute; Camera will then "Reboot" with new firmware
+Display should show "UPGRADING" for about 2-minutes; DO NOT TURN OFF DURING THIS TIME! (this will "brick" the camera).  Camera will then "Reboot" with new firmware
