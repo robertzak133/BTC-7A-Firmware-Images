@@ -1,10 +1,22 @@
 # BTC-7A-Firmware-Images
-This repository contains firmware images for BTC-7A Browning Trail Camera
-These images include:
-- /Manufacturer-Baseline/ : FW consistent with manufacturer install; revert to this as necessay
+This repository contains firmware images for BTC-7A Browning Trail Camera.
+
+See the following posts for backround, context, and additional instruction:
+
+- [IR to White Flash Trail Camera Converision](https://winterberrywildlife.ouroneacrefarm.com/2021/09/15/ir-to-white-flash-trail-camera-conversion/)
+- [Using a Trail Camera to Trigger a DSLR Camera](https://winterberrywildlife.ouroneacrefarm.com/2021/12/03/using-trail-camera-to-trigger-a-dslr-camera/)
+
+
+These images are in the directories noted below and include:
+- /Manufacturer-Baseline/ : FW consistent with manufacturer install; revert to this as necessary
+
 - /White-Flash-Custom-Ribbon/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video
 
 - /White-Flash-Custom-Ribbon-20Sec-Delay/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video; sets the "countdown" delay to 20 seconds (vs. the standard 30 second delay from manufacturer)
+
+- /DSLR-Trigger-CR/ : Firmware that support use of the BTC-7A as an external trigger for a DSLR trail camera.  Turns on Aim LED while taking photos or videos.  Also contains custom ribbon, removal of 20 second limitation on night videos. 
+
+- /DSLR-Trigger-WF-CR-20SD/ : Firmware that support use of the BTC-7A as an external trigger for a DSLR trail camera.  Turns on Aim LED while taking photos or videos.  Also contains white flash conversion, custom ribbon, removal of 20 second limitation on night videos. 
 
 ## Download Instructions
 - Find the copy of brnbtc70.BRN file you're interested in one of the folders here
