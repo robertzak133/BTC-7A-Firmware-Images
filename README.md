@@ -7,18 +7,29 @@ See the following posts for backround, context, and additional instruction:
 - [Using a Trail Camera to Trigger a DSLR Camera](https://winterberrywildlife.ouroneacrefarm.com/2021/12/03/using-trail-camera-to-trigger-a-dslr-camera/)
 
 
-These images are in the directories noted below and include:
-- /Manufacturer-Baseline/ : FW consistent with manufacturer install; revert to this as necessary
+The firmware images (named in the left column) are created with the following features/options enabled. 
 
-- /Custom-Ribbon-No-Night-Limit/ : FW that removed night video limit of 20 seconds.  Camera will now take full video length, as configured, even at night.  Als includes large (readable) data/time at the bottom of the screen during photo/video playback
+| Image Directory | Battery Monitor | White-Flash | IR Filter | Custom Ribbon | Night Video Limit | Arm Delay | DSLR Trigger |
+| ----------------| ----------------| ------------| --------- | ------------- | ----------------- | ----------- | ---
+| Baseline        |  standard         | no         | disengaged     |     no        | yes           |  30 Sec      | no |
+| WF_E_CR_NV         |  standard | yes        | engaged   |     yes       |  no           |  30 Sec | no |
+| WF_E_CR_NV_20S     |  standard | yes        | engaged   |     yes       |  no           |  20 Sec | no |
+| WF_D_CR_NV_20S     |  standard | yes        | disengaged|     yes       |  no           |  20 Sec | no |
+| CR_NV_DSLR            |  standard |no         | disengaged        |     yes       |  no           |  30 Sec | yes |
+| WF_E_CR_NV_DSLR | standard | yes            | engaged   |  yes   |  no | 30 Sec | yes |
+| BM_WF_E_CR_NV | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | no |
+| BM_WF_E_CR_NV_DSLR | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | yes |
 
-- /White-Flash-Custom-Ribbon/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video
 
-- /White-Flash-Custom-Ribbon-20Sec-Delay/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video; sets the "countdown" delay to 20 seconds (vs. the standard 30 second delay from manufacturer)
+* Image Directory: Directory in GitHub Site where image can be found
+* Battery Monitor: "standard" is factory default based on voltage measurement.   "stateful" tracks the amount of energy used and subtracts this from the energy available in a fully charged battey pack.  Battery monitor is in alpha state. 
+* White-Flash: Supports white flash conversion
+* IR Filter: Whether IR filter is engaged at night (default), or disengaged.  For White Flash options, the position of the IR filter has a small effect on the white balance of the resulting photos/videos.  "Engaged" produces a slightly blue-tinged image; whereas disengaged a slightly yellow-tinged image.  
+* Custom Ribbon: In "Playback" menu, the date and time of the photo/video are shown is larger font at the bottom of the playback screen, making it easier to tell when the image was taken when reviewing in the field. 
+* Night Video Limit: The default manufacturer firmware limits night time (flash illuminated) videos to 20 Seconds.  This option removes that limit, allowing illuminated videos of the same duration as daylight videos.
+* Arm Delay: the default manufacturer arms the camera after 30 second.  This option reduces the arm time to 20 seconds.
+* DSLR Trigger: Causes the "aim led" to turn on whenever a photo or video is taken.  This LED can be used to trigger a DSLR camera, while also allowing the trail camera to take photos or video.
 
-- /DSLR-Trigger-CR/ : Firmware that support use of the BTC-7A as an external trigger for a DSLR trail camera.  Turns on Aim LED while taking photos or videos.  Also contains custom ribbon, removal of 20 second limitation on night videos. 
-
-- /DSLR-Trigger-WF-CR-20SD/ : Firmware that support use of the BTC-7A as an external trigger for a DSLR trail camera.  Turns on Aim LED while taking photos or videos.  Also contains white flash conversion, custom ribbon, removal of 20 second limitation on night videos. 
 
 ## Download Instructions
 - Find the copy of brnbtc70.BRN file you're interested in one of the folders here

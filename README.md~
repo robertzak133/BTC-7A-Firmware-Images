@@ -10,6 +10,8 @@ See the following posts for backround, context, and additional instruction:
 These images are in the directories noted below and include:
 - /Manufacturer-Baseline/ : FW consistent with manufacturer install; revert to this as necessary
 
+- /Custom-Ribbon-No-Night-Limit/ : FW that removed night video limit of 20 seconds.  Camera will now take full video length, as configured, even at night.  Als includes large (readable) data/time at the bottom of the screen during photo/video playback
+
 - /White-Flash-Custom-Ribbon/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video
 
 - /White-Flash-Custom-Ribbon-20Sec-Delay/ : FW that supports White Flash conversion; as a bonus, also includes large (readable) date/time at the bottom of the screen during photo/video playback; removes limitation of 20 seconds for night time video; sets the "countdown" delay to 20 seconds (vs. the standard 30 second delay from manufacturer)
