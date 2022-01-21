@@ -3,7 +3,7 @@ This repository contains firmware images for BTC-7A Browning Trail Camera.
 
 See the following posts for backround, context, and additional instruction:
 
-- [IR to White Flash Trail Camera Converision](https://winterberrywildlife.ouroneacrefarm.com/2021/09/15/ir-to-white-flash-trail-camera-conversion/)
+- [IR to White Flash Trail Camera Conversion](https://winterberrywildlife.ouroneacrefarm.com/2021/09/15/ir-to-white-flash-trail-camera-conversion/)
 - [Using a Trail Camera to Trigger a DSLR Camera](https://winterberrywildlife.ouroneacrefarm.com/2021/12/03/using-trail-camera-to-trigger-a-dslr-camera/)
 
 
