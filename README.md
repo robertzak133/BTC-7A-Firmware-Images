@@ -11,17 +11,17 @@ The firmware images (named in the left column) are created with the following fe
 
 | Image Directory | Battery Monitor | White-Flash | IR Filter | Custom Ribbon | Night Video Limit | Arm Delay | DSLR Trigger |
 | ----------------| ----------------| ------------| --------- | ------------- | ----------------- | ----------- | ---
-| Baseline        |  standard         | no         | disengaged     |     no        | yes           |  30 Sec      | no |
-| WF_E_CR_NV         |  standard | yes        | engaged   |     yes       |  no           |  30 Sec | no |
-| WF_E_CR_NV_20S     |  standard | yes        | engaged   |     yes       |  no           |  20 Sec | no |
-| WF_D_CR_NV_20S     |  standard | yes        | disengaged|     yes       |  no           |  20 Sec | no |
-| CR_NV_DSLR            |  standard |no         | disengaged        |     yes       |  no           |  30 Sec | yes |
-| WF_E_CR_NV_DSLR | standard | yes            | engaged   |  yes   |  no | 30 Sec | yes |
-| BM_WF_E_CR_NV | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | no |
-| BM_WF_E_CR_NV_DSLR | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | yes |
+| [Baseline](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/Baseline/brnbtc70.BRN) |  standard         | no         | disengaged     |     no        | yes           |  30 Sec      | no |
+| [WF_E_CR_NV](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_E_CR_NV/brnbtc70.BRN) |  standard | yes        | engaged   |     yes       |  no           |  30 Sec | no |
+| [WF_E_CR_NV_20S](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_E_CR_NV_20S/brnbtc70.BRN)  |  standard | yes        | engaged   |     yes       |  no           |  20 Sec | no |
+| [WF_D_CR_NV_20S](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_D_CR_NV_20S/brnbtc70.BRN)     |  standard | yes        | disengaged|     yes       |  no           |  20 Sec | no |
+| [CR_NV_DSLR](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/CR_NV/brnbtc70.BRN)            |  standard |no         | disengaged        |     yes       |  no           |  30 Sec | yes |
+| [WF_E_CR_NV_DSLR](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_E_CR_NV_DSLR/brnbtc70.BRN) | standard | yes            | engaged   |  yes   |  no | 30 Sec | yes |
+| [BM_WF_E_CR_NV](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/BM_WF_E_CR_NV/brnbtc70.BRN) | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | no |
+| [BM_WF_E_CR_NV_DSLR](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/BM_WF_E_CR_NV_DSLR/brnbtc70.BRN) | stateful  | yes            | engaged   |  yes   | no  | 30 Sec | yes |
 
 
-* Image Directory: Directory in GitHub Site where image can be found
+* Image Directory: Directory and link in GitHub Site where image, in a file named brnbtc70.BNR can be found
 * Battery Monitor: "standard" is factory default based on voltage measurement.   "stateful" tracks the amount of energy used and subtracts this from the energy available in a fully charged battey pack.  Battery monitor is in alpha state. 
 * White-Flash: Supports white flash conversion
 * IR Filter: Whether IR filter is engaged at night (default), or disengaged.  For White Flash options, the position of the IR filter has a small effect on the white balance of the resulting photos/videos.  "Engaged" produces a slightly blue-tinged image; whereas disengaged a slightly yellow-tinged image.  
