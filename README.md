@@ -48,7 +48,7 @@ On BTC-7A
 - Select "FW UPGRADE"
 - Select "YES"
 
-Display should show "UPGRADING".  For BASELINE image, this should take about 20 seoconds; for other images it can take 2-3 minutes; DO NOT TURN OFF OR REMOVE BATTERIES DURING THIS TIME! (this will "brick" the camera).  
+Display should show "UPGRADING".  For BASELINE image, this may take as little as 20 seconds; for other images it can take 2-3 minutes; DO NOT TURN OFF OR REMOVE BATTERIES DURING THIS TIME! (this will "brick" the camera).  
 
 Camera will then "Reboot" with new firmware.
 
