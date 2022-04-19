@@ -12,7 +12,7 @@ The firmware images (named in the left column) are created with the following fe
 | Image Directory | Battery Monitor | White-Flash | IR Filter | Custom Ribbon | Night Video Limit | Arm Delay | DSLR Trigger |
 | ----------------| ----------------| ------------| --------- | ------------- | ----------------- | ----------- | ---
 | [Baseline](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/Baseline/brnbtc70.BRN) |  standard         | no         | disengaged     |     no        | yes           |  30 Sec      | no |
-| [CR_NV]()    |    standard        |   no        |  disengaged | yes         |      no           |  30 Sec    |   no      | 
+| [CR_NV](https://github.com/robertzak133/BTC-7A-Firmware-Images/tree/main/CR_NV)    |    standard        |   no        |  disengaged | yes         |      no           |  30 Sec    |   no      | 
 | [WF_E_CR_NV](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_E_CR_NV/brnbtc70.BRN) |  standard | yes        | engaged   |     yes       |  no           |  30 Sec | no |
 | [WF_E_CR_NV_20S](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_E_CR_NV_20S/brnbtc70.BRN)  |  standard | yes        | engaged   |     yes       |  no           |  20 Sec | no |
 | [WF_D_CR_NV_20S](https://github.com/robertzak133/BTC-7A-Firmware-Images/blob/main/WF_D_CR_NV_20S/brnbtc70.BRN)     |  standard | yes        | disengaged|     yes       |  no           |  20 Sec | no |
